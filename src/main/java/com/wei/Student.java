@@ -20,6 +20,7 @@ public class Student {
         if(getAverage()<60){
             System.out.println("*");
         }
+        System.out.println();
     }
     public int getAverage(){
         return(english+math)/2;
