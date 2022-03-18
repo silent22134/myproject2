@@ -2,9 +2,13 @@ package com.wei;
 
 public class MemberLevel {
     public static void main(String[] args) {
-        Member normal = new Member("0001",1200);
-        Member silver = new Member("0002",800);
-        normal.print();
+        Member customer1 = new Member("0001",1200);
+        Member customer2 = new Member("0002",800);
+        Member silver = new Member("0003",2000);
+        Member golden = new Member("0004",5000);
+        customer1.print();
+        customer2.print();
         silver.print();
+        golden.print();
     }
 }
