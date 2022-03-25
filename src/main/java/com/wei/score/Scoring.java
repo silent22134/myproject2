@@ -1,4 +1,4 @@
-package com.wei;
+package com.wei.score;
 
 public class Scoring {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package com.wei;
+package com.wei.score;
+
+import com.wei.score.Student;
 
 public class GraduateStudent extends Student {
     int thesis;

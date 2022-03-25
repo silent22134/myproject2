@@ -1,4 +1,6 @@
-package com.wei;
+package com.wei.sales;
+
+import com.wei.sales.Member;
 
 public class MemberLevel {
     public static void main(String[] args) {

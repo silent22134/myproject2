@@ -1,4 +1,4 @@
-package com.wei;
+package com.wei.sales;
 
 public class Member {
     String level;

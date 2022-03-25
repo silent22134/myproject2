@@ -1,4 +1,4 @@
-package com.wei;
+package com.wei.score;
 
 public class Student {
     String name;
