@@ -12,8 +12,34 @@ public class Ticket {
         this.start=start;
         this.destination=destination;
     }
-    public void print(){
-        System.out.println();
-
+    //int OnetoTwo = 100*200;
+    //int OnetoThree = 100*300;
+    //int TwotoThree = 200*300;
+    public void price(){
+        if(start == Station.TAIPEI_STATION){
+            if(destination == Station.TAICHUNG_STATION){
+                price = 600;
+            }else{
+                price = 1500;
+            }
+        }
+        if(start == Station.TAICHUNG_STATION){
+            if(destination == Station.KAOHSIUNG_STATION){
+                price = 900;
+            }else {
+                price = 600;
+            }
+        }
+        if (start == Station.KAOHSIUNG_STATION){
+            if (destination == Station.TAIPEI_STATION){
+                price = 1500;
+            }else {
+                price = 900;
+            }
+        }
     }
+    public void print(){
+        System.out.println(start.name+"\t"+destination.name+"\t");
+    }
+
 }

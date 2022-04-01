@@ -35,5 +35,18 @@ public class TicketSale {
                 destination = Station.KAOHSIUNG_STATION;
                 break;
         }
+        //
+        System.out.println("Which kind of ticket?(1.Normal 2.Student 3.Priority)");
+        choice = Integer.parseInt(scanner.next());
+        Ticket ticket1 = null;
+        switch (choice){
+            case 1:
+                ticket = new Ticket(start,destination);
+                break;
+            case 2:
+                ticket = new Student(start,destination);
+                break;
+        }
+        ticket.print();
     }
 }
